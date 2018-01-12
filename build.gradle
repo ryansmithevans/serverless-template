@@ -7,6 +7,8 @@ repositories {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+defaultTasks 'build'
+
 dependencies {
     compile (
         'com.amazonaws:aws-lambda-java-core:1.1.0',
